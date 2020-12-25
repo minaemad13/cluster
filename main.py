@@ -162,20 +162,3 @@ for i in range(0,len(clusters)):
     for j in range(0,clen):
         print(clusters[i][j][0])
 
-"""
-#outliers
-clustered=set()
-observed=set() 
-for i in range(0,len(clusters)):
-    clen=len(clusters[i])
-    for j in range(0,clen):
-        clustered.add(clusters[i][j][0])
-for i in range(0,len(students)):
-    for j in range(0,21):
-        observed.add(students[i][0])
-outliers=observed-clustered
-
-print("Outliers")
-print("===========")
-print(outliers)
-"""
